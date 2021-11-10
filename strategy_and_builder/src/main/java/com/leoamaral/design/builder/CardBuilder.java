@@ -3,7 +3,7 @@ package com.leoamaral.design.builder;
 public class CardBuilder {
     private final Card card;
 
-    public CardBuilder(){
+    private CardBuilder(){
         this.card = new Card();
     }
 
